@@ -1,0 +1,340 @@
+
+/*===================================Landing======================================= */
+
+body{
+    background: url("../img/background.jpg")no-repeat fixed;
+    background-size:cover;
+}
+/*===================================Headers======================================= */
+h1{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#lucky{
+    text-align: center;
+    color:#FFF;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#become{
+    text-align: center;
+    color: #ff6312;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#existing{
+    text-align: center;
+    color: #2b29ff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    margin-bottom: 11%;
+}
+
+h3{
+    margin-left: 35%;
+    color:#FFF;
+    font-family: 'Droid Serif', serif;
+}
+
+#logo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h4{
+    color:#FFF;
+}
+
+/*===================================Content======================================= */
+
+img[alt="mainphoto"]{
+    width:100%;
+}
+
+#signup{
+    width:100%;
+    font-size: 1.5em;
+    background:#ff6312;
+    color: #050400;
+    opacity: 0.92;
+    font-family: 'Changa One', cursive;
+}
+
+
+
+#members{
+    margin-top: 5%;
+    margin-bottom:10%;
+}
+
+
+#signin{
+    width:100%;
+    font-size: 1.5em;
+    background: #2b29ff;
+    opacity: 0.92;
+    color: #050400;
+    margin-top: 9%;
+    font-family: 'Roboto', sans-serif;
+}
+input[name="password2"]{
+    margin-bottom: 5%;
+}
+
+#signin:hover{
+   opacity: 1;
+}
+
+#signup:hover{
+    opacity: 1;
+}
+
+.active{
+    background: #FFF;
+
+}
+
+/*===================================Lists======================================= */
+.top-bar{
+    background:#333;
+    opacity: 0.7;
+    height: 74px;
+    line-height: 74px;
+}
+
+.left li{
+    line-height: 74px;
+    height: 74px;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+    line-height: 74px;
+    font-size: 1em;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+    line-height: 74px;
+    font-size: 1em;
+}
+
+
+#footlist li{
+    display: inline;
+    margin:0 2%;
+    color: #fefff9;
+}
+
+#benefits{
+    list-style-type: none;
+    color:#ff6312;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+}
+
+/*===================================Landing======================================= */
+
+.targetDiv {
+    color:#FFF;
+    border: 2px solid;
+
+}
+
+.showSingle{
+    color:#ff6312;
+    font-size: 2em;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.Team{
+    border: 2px solid;
+    font-size: 3em;
+    padding:10%;
+    text-align: center;
+}
+
+#superbowl{
+    background: url('http://upload.wikimedia.org/wikipedia/en/a/a9/Super_Bowl_XLIX_logo.jpg')center;
+    padding:10%;
+    width:70%;
+    margin:0 auto;
+    border: #222 solid 9px;
+}
+
+#sherman{
+    background: url('http://simmqb.files.wordpress.com/2013/07/richard-sherman-firstcol-story1.jpg');
+    padding:10%;
+    width:70%;
+    margin:0 auto;
+    border: #222 solid 9px;
+}
+
+#football{
+    background: url('../img/football.png')center;
+    padding:10%;
+    width:70%;
+    margin:0 auto;
+    border: #222 solid 9px;
+}
+
+input[type="text"]{
+    outline:none;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 16px;
+    background-image: url('http://www.kirupa.com/images/search.png');
+    background-position: 610px -10px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+#search-cont{
+    width:65%;
+    float:left;
+    overflow: hidden;
+
+}
+
+#btn-contatin{
+    overflow: hidden;
+    float:left;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+#final-search{
+    overflow: hidden;
+    width:100%;
+    margin-left: 16%;
+}
+/*=========================modal==============================*/
+#overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+#modal2 {
+    width: 60%;
+    box-shadow: 0 0 10px #000;
+    background: #0C371D;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left:35%;
+    margin-top: -200px;
+    margin-left: -200px;
+    z-index: 1001;
+    display: none;
+}
+
+#modal2 .header {
+    color:#FFF;
+    padding: 10px;
+}
+
+#modal2 p {
+    margin: 15px;
+}
+
+#modal2 .close {
+    position: absolute;
+    background: #CCC;
+    right: 5px;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background:#FFF;
+}
+
+.modal2Click{
+    margin-top: 1%;
+    font-size:1em;
+}
+/*=========================search pages==============================*/
+
+.list{
+    list-style-type: none;
+}
+
+.list li:hover{
+    background: #222;
+}
+
+.check{
+    margin-right: 10%;
+}
+
+.small{
+    width:10%;
+}
+
+#top-table{
+    width:70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#top-table th{
+    background: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#top-table td{
+    font-size: 2em;
+    text-align: center;
+}
+
+#top-table tr{
+    border-bottom: 2px solid #FFF;
+    background: #0C371D;;
+}
+
+#top-table tr:hover{
+    background: #caccd0;
+}
+/*=========================Peyton page==============================*/
+
+#peyton-head{
+    text-align: center;
+    margin-top:5%;
+    color:#FFF;
+}
+
+.player-stats li{
+    font-size: 1.2em;
+    color:#FFF;
+}
+
+#videobcg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
